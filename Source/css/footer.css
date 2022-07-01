@@ -1,0 +1,19 @@
+.container-footer {
+	text-align: center;
+	width: 90%;
+	max-width: 100%;
+}
+
+.container-footer div {
+	width: 100%;
+	max-width: 100%;
+}
+
+.container-footer div ul li a {
+	color: #000000;
+	font-size: 20px;
+}
+
+.container-footer-mark {
+	font-size: 26px;
+}
