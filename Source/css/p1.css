@@ -1,0 +1,48 @@
+.container-banner {
+	background: url(../images/banners/lights_out.jpg) no-repeat center center;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+	height: 500px;
+}
+
+.banner-title {
+	padding: 50px;
+}
+
+.container-highlight {
+	background: #5E997A;
+	margin-top: -40px;
+}
+
+.highlight-services {
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+}
+
+.highlight-title {
+	font-size: 26px;
+	color: #ffffff;
+	padding: 5px 0px 0px 15px;
+	border-bottom: solid 1px #ffffff;
+}
+
+.highlight-text {
+	padding: 0px 5px 0px 5px;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+	border-bottom: solid 1px #ffffff;
+}
+
+.highlight-services div a img {
+	max-width: 60px;
+}
+
+.highlight-services div p{
+	font-size: 18px;
+}

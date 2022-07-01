@@ -1,0 +1,33 @@
+ul {list-style-type: none;}
+
+a {text-decoration: none;}
+
+header {
+	width: 100%;
+	max-width: 100%;
+	text-align: center;
+}
+
+.container-header-logo {
+	padding: 20px;
+}
+
+.container-dropdown-menu-bar {
+	width: 100%;
+	max-width: 100%;
+	display: inline-block;
+	text-align: unset !important;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.dropdown-menu-bar {}
+
+.menu-bar-item {
+	display: inline;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.links-menu {color: #505050;}
