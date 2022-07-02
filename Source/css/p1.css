@@ -52,3 +52,32 @@
 .highlight-services div p{
 	font-size: 18px;
 }
+
+
+@media only screen and (min-width: 768px) {
+	.banner-title-insight {
+		font-size: 54px;
+	}
+	.banner-title-subtitle {
+		font-size: 34px;
+	}
+	.banner-title-legenda {
+		font-size: 24px;
+	}
+	.highlight-title {
+		font-size: 34px;
+	}
+	.highlight-text {
+		font-size: 24px;
+	}
+	.highlight-services div {
+		display: inline-block;
+		margin: 30px;
+	}
+	.highlight-services div a img {
+		max-width: 100px;
+	}
+	.highlight-services div p {
+		font-size: 24px;
+	}
+}

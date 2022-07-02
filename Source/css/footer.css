@@ -17,3 +17,17 @@
 .container-footer-mark {
 	font-size: 26px;
 }
+
+@media only screen and (min-width: 768px) {
+	.container-footer {width: 100%;}
+	.container-footer div {
+		display: inline-block;
+		width: 200px;
+		text-align: center;
+		margin: 10px;
+	}
+	.container-footer div ul li {
+		font-size: 22px;
+	}
+	.container-footer div ul li a {font-size: 24px;}
+}
