@@ -22,7 +22,7 @@
 	.container-footer {width: 100%;}
 	.container-footer div {
 		display: inline-block;
-		width: 200px;
+		width: 30%;
 		text-align: center;
 		margin: 10px;
 	}
@@ -30,4 +30,10 @@
 		font-size: 22px;
 	}
 	.container-footer div ul li a {font-size: 24px;}
+}
+
+@media only screen and (min-width: 908px) {
+	.container-footer div ul li {font-size: 28px;}
+	.container-footer div ul li a {font-size: 28px;}
+	..container-footer div ul li a i{font-size: 92px;}
 }
