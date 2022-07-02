@@ -10,6 +10,12 @@
 	padding: 50px;
 }
 
+.highlight-content-logo {
+	text-align: center;
+	padding: 50px;
+	margin-bottom: 20px;
+}
+
 .container-highlight {
 	background: #5E997A;
 	margin-top: -40px;
