@@ -8,6 +8,13 @@ header {
 	text-align: center;
 }
 
+.menu-bar-item-opt {
+	display: none;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 .container-header-logo {
 	padding: 20px;
 }
@@ -21,7 +28,6 @@ header {
 	border-bottom: 1px solid #000000;
 }
 
-.dropdown-menu-bar {}
 
 .menu-bar-item {
 	display: inline;
@@ -31,3 +37,14 @@ header {
 }
 
 .links-menu {color: #505050;}
+
+
+@media only screen and (min-width: 768px) {
+	.menu-bar-item-opt {
+		display: inline-block;
+		font-size: 30px;
+	}
+	.menu-bar-item {
+		font-size: 30px;
+	}
+}
