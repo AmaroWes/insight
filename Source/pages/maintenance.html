@@ -10,12 +10,18 @@
 <body>
 	<header class="container-header">
 		<div class="container-header-logo">
-			<a href="../../index.html"><img src="../images/logos/logo5.png" alt="logo"></a>
+			<a href="index.html"><img src="../images/logos/logo5.png" alt="logo"></a>
 		</div>
 		<div class="container-dropdown-menu-bar">
 			<ul class="dropdown-menu-bar">
 				<li class="menu-bar-item-opt">
-					<a class="links-menu" href="../../index.html">Inicio</a>
+					<a class="links-menu" href="index.html">Inicio</a>
+				</li>
+				<li class="menu-bar-item">
+					<a class="links-menu" href="#">Soluções</a>
+				</li>
+				<li class="menu-bar-item">
+					<a class="links-menu" href="#">Sobre a empresa</a>
 				</li>
 				<li class="menu-bar-item-opt">
 					<a class="links-menu" href="#">Contato</a>
@@ -24,21 +30,25 @@
 		</div>
 	</header>
 	<div class="container-body">
-		<div class="container-login-form">
-			<form class="form-login" action="" method="POST">
-				<fieldset>
-					<label class="login-form-subtitle" for="login">Login:</label>
-					<input class="input-form-login" type="email" name="login" placeholder="xxx@xxx.xx" required>
-					<br>
-					<label class="login-form-subtitle" for="password">Senha:</label>
-					<input class="input-form-login" type="password" name="password" required>
-					<br>
-					<a class="form-login-links"  href="">Esqueci minha senha...</a>
-					<br>
-					<a class="form-login-links" href="">Não tenho cadastro ainda...</a>
+		<div class="container-maintenance">
+			<div class="maintenance-items">
+				<fieldset class="maintenance-items-equipamentos">
+					<legend>Equipamentos</legend>
+					<p>Tenho um equipamento adquirido com vocês e  ele está apresentando erros, gostaria de solicitar manutenção.</p>
 				</fieldset>
-				<input type="submit" class="btn-form-login-entrar" name="btn-form-login-entrar" value="Entrar">
-			</form>
+			</div>
+			<div class="maintenance-items">
+				<fieldset class="maintenance-items-infraestrutura">
+					<legend>Infraestrutura</legend>
+					<p>Tenho uma infraestrutura desenvolvida com vocês e ela está apresentando erros, gostaria de solicitar manutenção.</p>
+				</fieldset>
+			</div>
+			<div class="maintenance-items">
+				<fieldset class="maintenance-items-logistica">
+					<legend>Logistica</legend>
+					<p>Tenho uma infraestrutura com vocês e gostaria de rever a logistica usada para implementação dela.</p>
+				</fieldset>
+			</div>
 		</div>
 	</div>
 	<footer class="container-footer">
