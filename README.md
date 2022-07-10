@@ -48,3 +48,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 <a href="https://github.com/AmaroWes"><img src="https://github.com/AmaroWes.png" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/mafmoreira"><img src="https://github.com/mafmoreira.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/vitor4breu"><img src="https://github.com/vitor4breu.png" width="45" height="45"></a> &nbsp;
