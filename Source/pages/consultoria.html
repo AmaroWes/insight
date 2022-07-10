@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Insight</title>
+</head>
+<body>
+	<header class="container-header">
+		<div class="container-header-logo">
+			<a href="../../index.html"><img src="../images/logos/logo5.png" alt="logo"></a>
+		</div>
+		<div class="container-dropdown-menu-bar">
+			<ul class="dropdown-menu-bar">
+				<li class="menu-bar-item-opt">
+					<a class="links-menu" href="../../index.html">Inicio</a>
+				</li>
+				<li class="menu-bar-item">
+					<a class="links-menu" href="#">Soluções</a>
+				</li>
+				<li class="menu-bar-item">
+					<a class="links-menu" href="#">Sobre a empresa</a>
+				</li>
+				<li class="menu-bar-item-opt">
+					<a class="links-menu" href="#">Contato</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div class="container-body">
+		<div class="container-consulta">
+			<form class="form-consulta" action="" method="POST">
+				<fieldset class="form-consulta-pessoal">
+					<legend>Pessoal</legend>
+					<label class="label-consulta" for="name">Nome:</label>
+					<br>
+					<input class="input-consulta" type="text" name="name" required>
+					<br>
+					<label class="label-consulta" for="sobrenome">Sobrenome:</label>
+					<br>
+					<input class="input-consulta" type="text" name="sobrenome" required>
+					<br>
+					<label class="label-consulta" for="email">E-mail:</label>
+					<br>
+					<input class="input-consulta" type="email" name="email" placeholder="xxxxx@xx.xx" required>
+					<br>
+					<label class="label-consulta" for="telefone">Celular:</label>
+					<br>
+					<input class="input-consulta" type="tel" id="telefone" name="telefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+				</fieldset>
+				<fieldset class="form-consulta-endereço">
+					<legend>Para visita</legend>
+					<label class="label-consulta" for="rua">Rua:</label>
+					<br>
+					<input class="input-consulta" type="text" name="rua" required>
+					<br>
+					<label class="label-consulta" for="bairro">Bairro:</label>
+					<br>
+					<input class="input-consulta" type="text" name="bairro" required>
+					<br>
+					<label class="label-consulta" for="num">Número:</label>
+					<br>
+					<input class="input-consulta" type="number" name="num" required>
+					<br>
+					<label class="label-consulta" for="comp">Complemento:</label>
+					<br>
+					<input class="input-consulta" type="text" name="comp" placeholder="Somente se necessário">
+					<br>
+					<label class="label-consulta" for="hora-inicial">Horário para contato(De - até):</label>
+					<br>
+					<input type="time" name="hora-inicial" mix="08:30" max="18:00" required>
+					<input type="time" name="hora-final" mix="08:30" max="18:00" required>
+				</fieldset>
+				<fieldset class="form-consulta-produto">
+					<legend>Sobre o produto</legend>
+					<label class="label-consulta" for="produto">Selecione o produto:</label>
+					<br>
+					<select class="input-consulta" id="produto" name="produto" required>
+						<option value="prod1">Equipamento 1</option>
+						<option value="prod2">Equipamento 2</option>
+						<option value="prod3">Equipamentos 3</option>
+						<option value="prod4">Instalação de infra</option>
+						<option value="prod5">Configuração de infra</option>
+						<option value="prod6">Consultoria geral</option>
+					</select>
+					<br>
+					<label class="label-consulta" for="versão">Seleciona e versão do produto:</label>
+					<br>
+					<select class="input-consulta" id="produto-vers" name="versão">
+						<option value="vers1">Versão 1</option>
+						<option value="vers2">Versão 2</option>
+						<option value="vers3">Versão 3</option>
+						<option value="vers4">Versão 4</option>
+					</select>
+				</fieldset>
+				<fieldset class="form-consulta-finalização">
+					<legend>Finalização</legend>
+					<label class="label-consulta" for="ofertas">Eu gostaria de receber ofertas por e-mail:</label>
+					<br>
+					<input type="radio" name="ofertas" value="Sim">Sim
+					<input type="radio" name="ofertas" value="Não">Não
+				</fieldset>
+				<input class="btn-form-login-orçar" type="submit" name="btn-form-login-orçar" value="Orçar">
+			</form>
+		</div>
+	</div>
+	<footer class="container-footer">
+		<div class="container-footer-endereço">
+			<ul>
+				<li><h3>Endereço:<h3></li>
+				<li>Rua XXXXXXX, nº 190, Canoas/RS</li>
+				<li>(51) 99108-0830</li>
+				<li>contato@insight.dev.br</li>
+			</ul>
+		</div>
+		<div class="container-paginas">
+			<ul>
+				<li><h3>Páginas:<h3></li>
+				<li><a href="../../index.html">Início</a></li>
+				<li><a href="#">Soluções</a></li>
+				<li><a href="#">Contate-nos</a></li>
+				<li><a href="#">Outros</a></li>
+			</ul>
+		</div>
+		<div class="container-social-links">
+			<ul>
+				<li><h3>Siga-nos:</h3></li>
+				<li><a href="https://br.linkedin.com/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+		<div class="container-footer-mark">
+			<p>© 2022 Insight</p>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,4 +1,4 @@
-.container-login-form {
+.container-confirmação-form {
 	margin-top: 200px;
 	margin-bottom: 200px;
 	height: 350px;
@@ -6,12 +6,12 @@
 	background: #5E997A;
 }
 
-.form-login {
+.form-confirmação {
 	padding: 60px;
 	text-align: right;
 }
 
-.form-login fieldset {
+.form-confirmação fieldset {
 	max-height: 100%;
 	height: 100%;
 	text-align: center;
@@ -19,23 +19,21 @@
 	border: solid 2px #80bf9e;
 }
 
-.input-form-login {
+.form-confirmação fieldset p {
+	font-size: 16px;
+}
+
+.confirmação-form-input {
 	width: 60%;
 	margin: 10px;
 	font-size: 18px;
 	background: #e1f2e9;
 }
-.login-form-subtitle {
+.confirmação-form-subtitle {
 	padding: 10px;
 	font-size: 18px;
 }
 
-.form-login-links {
-	font-size: 14px;
-	text-decoration: none;
-	color: #000000;
-	margin: 10px;
-}
 
 .btn-form-login-entrar {
 	margin-top: 30px;
@@ -48,34 +46,38 @@
 	border-radius: 15px;
 }
 
+.confirmação-form-reenviar {
+	color: #ff0000;
+}
+
 @media only screen and (min-width: 768px) {
-	.input-form-login {
+	.container-confirmação-form {
+		height: 400px;
+	}
+	.confirmação-form-input {
 		width: 80%;
 		font-size: 24px;
 	}
-	.login-form-subtitle {
+	.confirmação-form-subtitle {
 		font-size: 24px;
-	}
-	.form-login-links {
-		font-size: 20px;
 	}
 }
 
 @media only screen and (min-width: 908px) {
-	.input-form-login {
+	.confirmação-form-input {
 		font-size: 28px;
 		width: 50%;
 	}
-	.login-form-subtitle {
+	.confirmação-form-subtitle {
 		font-size: 28px;
 	}
-	.form-login-links {
-		font-size: 24px;
+	.form-confirmação fieldset p {
+		font-size: 20px;
 	}
 }
 
 @media only screen and (min-width: 1045px) {
-	.input-form-login {
+	.confirmação-form-input {
 		width: 30%;
 	}
 }

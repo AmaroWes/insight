@@ -1,0 +1,58 @@
+.container-infra {}
+
+
+.infra-items {
+	padding: 10px;
+}
+
+.infra-items fieldset {
+	background: #e1f2e9;
+	text-align: center;
+}
+
+.infra-items fieldset legend {
+	font-size: 20px;
+	font-weight: bold;
+	color: #505050;
+}
+
+.infra-items fieldset p {
+	font-size: 18px;
+	color: #000000;
+}
+
+.infra-items fieldset a {
+	font-size: 20px;
+	color: #28593f;
+}
+
+.infra-items-equipamentos:hover {
+	background: #5E997A;
+}
+
+.infra-items-infraestrutura:hover {
+	background: #5E997A;
+}
+
+.infra-items-logistica:hover {
+	background: #5E997A;
+}
+
+@media only screen and (min-width: 768px) {
+	.infra-items fieldset {
+		margin-right: 25%;
+		margin-left: 25%;
+	}
+
+	.infra-items fieldset legend {
+		font-size: 30px;
+	}
+
+	.infra-items fieldset p {
+		font-size: 24px;
+	}
+
+	.infra-items fieldset a {
+		font-size: 26px;
+	}
+}
