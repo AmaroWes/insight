@@ -1,0 +1,72 @@
+.container-consulta {}
+
+.form-consulta {
+	padding: 10px;
+}
+
+.form-consulta fieldset {
+	background: #5E997A;
+}
+
+.form-consulta fieldset legend {
+	font-size: 24px;
+}
+
+.form-consulta fieldset label {
+	font-size: 16px;
+}
+
+.form-consulta fieldset input {
+	background: #e1f2e9;
+	border: none;
+	font-size: 16px;
+}
+
+.form-consulta fieldset select {
+	background: #e1f2e9;
+	border: none;
+	font-size: 16px;
+}
+
+.input-consulta {
+	width: 80%;
+}
+
+.btn-form-login-orçar {
+	margin-top: 30px;
+	font-size: 24px;
+	border: none;
+	background: #5E997A;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #234232;
+	border-radius: 15px;
+}
+
+.btn-form-login-orçar:hover {
+	background: #e1f2e9;
+}
+
+@media only screen and (min-width: 768px) {
+	.form-consulta {
+		width: 70%;
+		margin-left: 15%;
+	}
+	.form-consulta fieldset legend {
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.form-consulta fieldset label {
+		font-size: 24px;
+	}
+	.form-consulta fieldset input{
+		font-size: 24px;
+	}
+	.form-consulta fieldset select {
+		font-size: 24px;
+	}
+
+	.input-consulta {
+		width: 70%;
+	}
+}
