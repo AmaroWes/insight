@@ -1,3 +1,5 @@
+* {font-family: sans-serif;}
+
 .container-banner {
 	background: url(../images/banners/lights_out.jpg) no-repeat center center;
 	background-size: cover;

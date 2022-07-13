@@ -24,22 +24,17 @@
 		</div>
 	</header>
 	<div class="container-body">
-		<div class="container-login-form">
-			<form class="form-login" action="" method="POST">
+		<div class="container-confirmação-form">
+			<form class="form-confirmação" action="" method="POST">
 				<fieldset>
-					<label class="login-form-subtitle" for="login">Login:</label>
+					<p>Foi enviado para o seu e-mail um número de confirmação, informe no campo abaixo para trocar a sua senha.</p>
+					<label class="confirmação-form-subtitle" for="code">Código:</label>
 					<br>
-					<input class="input-form-login" type="email" name="login" placeholder="xxx@xxx.xx" required>
+					<input class="confirmação-form-input" type="text" name="code" placeholder="000000" required>
 					<br>
-					<label class="login-form-subtitle" for="password">Senha:</label>
-					<br>
-					<input class="input-form-login" type="password" name="password" required>
-					<br>
-					<a class="form-login-links"  href="esqueciminhasenha.html">Esqueci minha senha...</a>
-					<br>
-					<a class="form-login-links" href="cadastro.html">Não tenho cadastro ainda...</a>
+					<p>Se você ainda não recebeu o código, <a href="" class="confirmação-form-reenviar">Clique aqui!</a></p>
 				</fieldset>
-				<input type="submit" class="btn-form-login-entrar" name="btn-form-login-entrar" value="Entrar">
+				<input type="submit" class="btn-form-login-entrar" name="btn-form-login-entrar" value="Enviar">
 			</form>
 		</div>
 	</div>

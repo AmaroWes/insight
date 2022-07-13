@@ -3,8 +3,9 @@
 @import "index.css";
 @import "login.css";
 @import "contato.css";
-@import "p4.css";
-@import "p5.css";
-@import "p6.css";
-@import "p7.css";
-@import "p8.css";
+@import "maintenance.css";
+@import "infraestrutura.css";
+@import "esqueciminhasenha.css";
+@import "consultoria.css";
+@import "cadastro.css";
+@import "confirmação.css";

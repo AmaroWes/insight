@@ -1,17 +1,17 @@
-.container-login-form {
+.container-esqueci-form {
 	margin-top: 200px;
 	margin-bottom: 200px;
-	height: 350px;
+	height: 300px;
 	max-height: 500px;
 	background: #5E997A;
 }
 
-.form-login {
+.form-esqueci {
 	padding: 60px;
 	text-align: right;
 }
 
-.form-login fieldset {
+.form-esqueci fieldset {
 	max-height: 100%;
 	height: 100%;
 	text-align: center;
@@ -19,23 +19,17 @@
 	border: solid 2px #80bf9e;
 }
 
-.input-form-login {
+.esqueci-form-input {
 	width: 60%;
 	margin: 10px;
 	font-size: 18px;
 	background: #e1f2e9;
 }
-.login-form-subtitle {
+.esqueci-form-subtitle {
 	padding: 10px;
 	font-size: 18px;
 }
 
-.form-login-links {
-	font-size: 14px;
-	text-decoration: none;
-	color: #000000;
-	margin: 10px;
-}
 
 .btn-form-login-entrar {
 	margin-top: 30px;
@@ -49,33 +43,27 @@
 }
 
 @media only screen and (min-width: 768px) {
-	.input-form-login {
+	.esqueci-form-input {
 		width: 80%;
 		font-size: 24px;
 	}
-	.login-form-subtitle {
+	.esqueci-form-subtitle {
 		font-size: 24px;
-	}
-	.form-login-links {
-		font-size: 20px;
 	}
 }
 
 @media only screen and (min-width: 908px) {
-	.input-form-login {
+	.esqueci-form-input {
 		font-size: 28px;
 		width: 50%;
 	}
-	.login-form-subtitle {
+	.esqueci-form-subtitle {
 		font-size: 28px;
-	}
-	.form-login-links {
-		font-size: 24px;
 	}
 }
 
 @media only screen and (min-width: 1045px) {
-	.input-form-login {
+	.esqueci-form-input {
 		width: 30%;
 	}
 }
