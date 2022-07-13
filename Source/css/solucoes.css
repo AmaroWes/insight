@@ -1,0 +1,170 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#central {
+	width: 80%;
+	height: 120px;
+	margin: 0px auto;
+	
+}
+
+.logo {
+	width: 96px;
+	height: 90px;
+	margin: auto;
+	margin-bottom: 7px;
+
+}
+.logo img {
+	padding-top: 10px;
+}
+
+.menu {
+	border-top: 1px solid #cacaca;
+	margin: auto;
+
+}
+.menu ul {
+	text-align: center;
+	
+}
+.menu ul li {
+	display: inline;
+
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #b7b7b7;
+	font-family: Arial;
+	padding: 3px 7px 3px 7px;
+	margin-left: -3px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.menu a:hover {
+	color: #373737;
+}
+
+.titulo {
+	width: 100%;
+	height: 6%;
+	padding: 15px;
+}
+.titulo h1 {
+	text-align: center;
+	padding: 0,8%;
+	font-family: Arial;
+}
+.travessao {
+	background: #5E997A;
+	width: 5%;
+	height: 7px;
+	margin: auto;
+}
+
+#centralizar {
+	width: 60%;
+	margin: auto;
+	font-family: Arial;
+	color: #ffff
+}
+#centralizar h3 {
+	margin-left: 10px;
+}
+#centralizar p {
+	margin-left: 15px;
+}
+#centralizar a {
+	color: #282828;
+	text-decoration: none;
+	background: #afd0bf;
+	padding: 5px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.titulo p {
+	text-align: center;
+	font-family: Arial;
+	font-size: 12px;
+}
+.banner {
+	width: 100%;
+	height: 800px;
+	background: #EEEEEE;
+}
+.banner .quadro1 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+
+}
+.banner .quadro2 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+
+}
+.banner .quadro3 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+}
+.banner .quadro4 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+
+}
+.banner .quadro5 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+
+}
+.banner .quadro6 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+
+}
+.banner .quadro7 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+
+}
+.banner .quadro8 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+
+}
+.banner .quadro9 {
+	width: 30%;
+	height: 210px;
+	float: left;
+	margin: 13px;
+	background: #5E997A;
+
+}
+

@@ -1,8 +1,8 @@
-.container-body{
+.container-contato{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-title{
+.container-contato-title{
     text-align: center;
     color: #000000;
     font: 1.7rem Arial;
@@ -10,23 +10,23 @@
     text-transform: uppercase;
 }
 
-.container-subtitle{
+.container-contato-subtitle{
     text-align: center;
     color: #000000;
     font: Arial;
 }
 
-.container-content{
+.container-contato-content{
     background-color: #EEEEEE;
     padding: 10px 5vw;
 }
 
-.container-form{
+.container-form-contato{
     width: 100%;
     margin: auto;
 }
 
-.form-item{
+.form-contato-item{
     background-color: #5E997A;
     color: #EEEEEE;
     width: 100%;
@@ -35,8 +35,8 @@
     box-sizing: border-box;
 }
 
-.form-item textarea,
-.form-item input{
+.form-contato-item textarea,
+.form-contato-item input{
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
@@ -45,24 +45,24 @@
     box-sizing: border-box;
 }
 
-.form-item input:focus, 
+.form-contato-item input:focus, 
 .form-item textarea:focus{
     outline: none;
 }
 
 
-.form-item textarea{
+.form-contato-item textarea{
     height: 150px;
 }
 
-.form-item label{
+.form-contato-item label{
     font-weight: 700;
     padding-bottom: 5px;
     font: 1.2rem Arial;
     display: block;
 }
 
-.container-form-submit {
+.container-form-contato-submit {
     display: block;
     box-sizing: border-box;
 
@@ -72,32 +72,32 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .container-form-submit{
+    .container-form-contato-submit{
         width: 33%;
     }
 
-    .container-form{
+    .container-form-contato{
         width: 70%;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .container-row-item1,
-    .container-row-item2,
-    .container-row-item3{
+    .container-contato-row-item1,
+    .container-contato-row-item2,
+    .container-contato-row-item3{
         width: 33%;
         display: inline-block;
     }
-    .container-row-item2{
+    .container-contato-row-item2{
         margin: 0px 0.5%;
     }
-    .container-form{
+    .container-form-contato{
         width: 60%;
     }
 }
 
 @media only screen and (min-width: 1980px) {
-    .container-form{
+    .container-form-contato{
         width: 50%;
     }
 }

@@ -1,0 +1,77 @@
+.container-cadastro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.container-cadastro{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 80vw;
+    margin: 25px auto;
+}
+.container-cadastro fieldset{
+    border: 3px solid #ffff;
+}
+.container-cadastro legend{
+    border: 1px solid #ffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+.container-cadastro .inputBox{
+    position: relative;
+}
+.container-cadastro .inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.container-cadastro .labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.container-cadastro .inputUser:focus ~ .labelInput,
+.container-cadastro .inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+.container-cadastro  #submit{
+    background-image: linear-gradient(to right,hwb(142 0% 23% / 0.4), rgba(20, 220, 173, 0.808));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .container-cadastro{
+        width: 40vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container-cadastro{
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1980px) {
+    .container-cadastro{
+        width: 500px;
+    }
+}

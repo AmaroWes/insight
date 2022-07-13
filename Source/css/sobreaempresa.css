@@ -1,0 +1,19 @@
+.container-sobreaempresa{
+    text-align: center;
+}
+
+.funcionario{
+    display: inline-block;
+    margin: 10px;
+}
+
+.imagem-funcionario{
+    object-fit: cover;
+    object-position: center;
+    height: 120px;
+    width: 100px;
+}
+
+.listaFuncionarios{
+    background-color: grey;
+}
